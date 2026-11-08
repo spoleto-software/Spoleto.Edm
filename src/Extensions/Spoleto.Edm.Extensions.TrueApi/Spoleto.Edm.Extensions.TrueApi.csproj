@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <!-- Package info -->
+    <PropertyGroup>
+        <Title>Spoleto.Edm DI extensions - CRPT EDO Lite provider</Title>
+        <PackageId>Spoleto.Edm.Extensions.TrueApi</PackageId>
+        <PackageTags>Spoleto.Edm; EDM; ЭДО; ЭДО Лайт; TrueAPI; CRPT; ЦРПТ</PackageTags>
+        <Description>Registration of CRPT EDO Lite provider for Spoleto.Edm in Microsoft DependencyInjection</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\Providers\Spoleto.Edm.TrueApi\Spoleto.Edm.TrueApi.csproj" />
+        <ProjectReference Include="..\Spoleto.Edm.Extensions\Spoleto.Edm.Extensions.csproj" />
+    </ItemGroup>
+
+</Project>

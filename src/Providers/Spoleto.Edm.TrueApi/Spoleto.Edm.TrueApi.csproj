@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Spoleto.Edm.Providers.TrueApi</RootNamespace>
+    </PropertyGroup>
+
+    <!-- Package info -->
+    <PropertyGroup>
+        <Title>Spoleto.Edm - CRPT EDO Lite provider</Title>
+        <PackageId>Spoleto.Edm.TrueApi</PackageId>
+        <PackageTags>Spoleto.Edm; EDM; ЭДО; ЭДО Лайт; TrueAPI; CRPT; ЦРПТ</PackageTags>
+        <Description>CRPT EDO Lite provider (True API section 9) for Spoleto.Edm</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Spoleto.CIS.Cryptography" Version="2.7.21.955" />
+        <PackageReference Include="Spoleto.Common" Version="3.6.28.1701" />
+        <PackageReference Include="Spoleto.TrueApi.Auth" Version="1.3.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\Spoleto.Edm\Spoleto.Edm.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="Spoleto.Edm.Tests" />
+    </ItemGroup>
+
+</Project>

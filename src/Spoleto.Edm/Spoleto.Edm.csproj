@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <!-- Package info -->
+    <PropertyGroup>
+        <Title>Spoleto.Edm</Title>
+        <PackageId>Spoleto.Edm</PackageId>
+        <Description>Electronic document management (EDM, ЭДО) with different EDM operators such as CRPT EDO Lite: universal transfer documents (УПД) of format 970, document lists and statuses</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="Spoleto.Edm.Tests" />
+    </ItemGroup>
+
+</Project>

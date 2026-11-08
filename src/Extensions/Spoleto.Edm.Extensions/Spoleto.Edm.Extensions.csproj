@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <!-- Package info -->
+    <PropertyGroup>
+        <Title>Spoleto.Edm extensions for Microsoft DependencyInjection</Title>
+        <PackageId>Spoleto.Edm.Extensions</PackageId>
+        <PackageTags>Spoleto.Edm; EDM; ЭДО</PackageTags>
+        <Description>Registration of Spoleto.Edm service in Microsoft DependencyInjection</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\Spoleto.Edm\Spoleto.Edm.csproj" />
+    </ItemGroup>
+
+</Project>
